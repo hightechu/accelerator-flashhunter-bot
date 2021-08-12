@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 // HighTechU Module
 module.exports = {
     // Name of Command
-    name: 'commands',
+    name: 'list',
     // Description of Command
     description: 'HighTechU Promotion',
     // Aliases
