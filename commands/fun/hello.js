@@ -1,7 +1,7 @@
 // Ping Module
 module.exports = {
     // Name of Command
-    name: 'ping',
+    name: 'hello',
     // Description of Command
     description: 'Hello!',
     // Guild - TRUE
@@ -11,6 +11,6 @@ module.exports = {
     // Execute Command - Parameters: message
     execute(message) {
         // Send Message
-        message.channel.send('Pong!');
+        message.channel.send('Hello user!');
     },
 };
