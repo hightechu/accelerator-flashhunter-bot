@@ -13,29 +13,30 @@ module.exports = {
     execute(message) {
         // Create Embed
         const embed = new Discord.MessageEmbed()
-            .setColor('#20C19E')
+            .setColor('#FAEF20')
             .setTitle('List of majors')
             .setURL('https://www.act.org/content/act/en/research/reports/act-publications/college-choice-report-class-of-2013/college-majors-and-occupational-choices/college-majors-and-occupational-choices.html')
             .setDescription('Choose the major that speaks to you.')
+            .setThumbnail('https://www.collinsdictionary.com/images/thumb/book_181404689_250.jpg')
             .addFields(
-                { name: 'AGRICULTURE & NATURAL RESOURCES CONSERVATION', value: '.' },
-                { name: 'ARCHITECTURE', value: '.' },
-                { name: 'AREA, ETHNIC, & MULTIDISCIPLINARY STUDIES', value: '.' },
-                { name: 'ARTS: VISUAL & PERFORMING', value: '.' },
-                { name: 'BUSINESS', value: '.' },
-                { name: 'COMMUNICATIONS', value: '.' },
-                { name: 'COMMUNITY, FAMILY, & PERSONAL SERVICES', value: '.' },
-                { name: 'COMPUTER SCIENCE & MATHEMATICS', value: '.' },
-                { name: 'EDUCATION', value: '.' },
-                { name: 'ENGINEERING', value: '.' },
-                { name: 'ENGINEERING TECHNOLOGY & DRAFTING', value: '.' },
-                { name: 'ENGLISH & FOREIGN LANGUAGES', value: '.' },
-                { name: 'HEALTH ADMINISTRATION & ASSISTING', value: '.' },
-                { name: 'HEALTH SCIENCES & TECHNOLOGIES', value: '.' },
-                { name: 'PHILOSOPHY, RELIGION, & THEOLOGY', value: '.' },
-                { name: 'REPAIR, PRODUCTION, & CONSTRUCTION', value: '.' },
-                { name: 'SCIENCES: BIOLOGICAL & PHYSICAL', value: '.' },
-                { name: 'SOCIAL SCIENCES & LAW', value: '.' },
+                { name: 'AGRICULTURE & NATURAL RESOURCES CONSERVATION', value: 'Major' },
+                { name: 'ARCHITECTURE', value: 'Major' },
+                { name: 'AREA, ETHNIC, & MULTIDISCIPLINARY STUDIES', value: 'Major' },
+                { name: 'ARTS: VISUAL & PERFORMING', value: 'Major' },
+                { name: 'BUSINESS', value: 'Major' },
+                { name: 'COMMUNICATIONS', value: 'Major' },
+                { name: 'COMMUNITY, FAMILY, & PERSONAL SERVICES', value: 'Major' },
+                { name: 'COMPUTER SCIENCE & MATHEMATICS', value: 'Major' },
+                { name: 'EDUCATION', value: 'Major' },
+                { name: 'ENGINEERING', value: 'Major' },
+                { name: 'ENGINEERING TECHNOLOGY & DRAFTING', value: 'Major' },
+                { name: 'ENGLISH & FOREIGN LANGUAGES', value: 'Major' },
+                { name: 'HEALTH ADMINISTRATION & ASSISTING', value: 'Major' },
+                { name: 'HEALTH SCIENCES & TECHNOLOGIES', value: 'Major' },
+                { name: 'PHILOSOPHY, RELIGION, & THEOLOGY', value: 'Major' },
+                { name: 'REPAIR, PRODUCTION, & CONSTRUCTION', value: 'Major' },
+                { name: 'SCIENCES: BIOLOGICAL & PHYSICAL', value: 'Major' },
+                { name: 'SOCIAL SCIENCES & LAW', value: 'Major' },
 
                 )
             .setTimestamp();

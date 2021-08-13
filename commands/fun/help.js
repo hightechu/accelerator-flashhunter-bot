@@ -13,7 +13,7 @@ module.exports = {
     execute(message) {
         // Create Embed
         const embed = new Discord.MessageEmbed()
-            .setColor('#20C19E')
+            .setColor('#FAEF20')
             .setTitle('Commands You Can Do')
             .setDescription('This is a list of commands you can start with.')
             .addFields(
