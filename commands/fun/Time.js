@@ -20,9 +20,10 @@ module.exports = {
 
 
         const embed = new Discord.MessageEmbed()
-            .setColor('#20C19E')
+            .setColor('#FAEF20')
             .setTitle('Calendar')
             .setDescription('Set your dates and activities.')
+            .setThumbnail('https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-512.png')
             .addFields(
                 { name: 'Activity', value: activity, inline: true },
                 { name: 'Date', value: date, inline: true },
